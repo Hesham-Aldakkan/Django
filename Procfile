@@ -1,1 +1,1 @@
-web: gunicorn djangoapp33.wsgi
+web: gunicorn quest.wsgi
