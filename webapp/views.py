@@ -85,4 +85,8 @@ def signout(request):
 
 
 def userPage(request):
+    if request.method == "POST":
+        logout(request)
+        messages.success(request, "logged out successfully")
+
     return render(request, "webapp/userPage.html")
