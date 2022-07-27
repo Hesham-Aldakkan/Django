@@ -1,1 +1,1 @@
-web: gunicorn djangoapp55.wsgi
+web: gunicorn djangoapp33.wsgi:application --log-file - --log-level debug
